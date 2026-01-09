@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -98,7 +98,7 @@
   <!-- Header -->
   <header id="home">
     <h1>Krystel Gwen Ordiales</h1>
-    <p>Dreamer • Creator • Aspiring Web Adventurer</p>
+    <p>Dreamer</p>
   </header>
 
   <!-- Navigation -->
@@ -118,45 +118,22 @@
   <!-- Skills Section -->
   <section id="skills">
     <h2>My Skills</h2>
-    <p>Here are some of my strengths</p>
+# HTML 
+# CSS
+# PYTHON
 
-    <div class="skills-bar">
-      <div class="skills-fill" data-skill="90%">HTML & CSS</div>
-    </div>
-
-    <div class="skills-bar">
-      <div class="skills-fill" data-skill="80%">JavaScript</div>
-    </div>
-
-    <div class="skills-bar">
-      <div class="skills-fill" data-skill="85%">Creativity</div>
-    </div>
   </section>
 
   <!-- Contact Section -->
   <section id="contact">
     <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:penarandajohnroland@gmail.com">penarandajohnroland@gmail.com</a></p>
+    <p>Email: <a href="mailto: krystelgwenordiales.com">krystelgwenordiales@gmail.com</a></p>
     <p>“Let’s create something amazing together.”</p>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Made with 💜 Purple Energy</p>
-  </footer>
-
-  <script>
-    // Animate skill bars on scroll
-    window.addEventListener("scroll", function () {
-      let skills = document.querySelectorAll(".skills-fill");
-      skills.forEach(skill => {
-        let rect = skill.getBoundingClientRect();
-        if (rect.top < window.innerHeight) {
-          skill.style.width = skill.getAttribute("data-skill");
-        }
-      });
-    });
-  </script>
+    © 2025 Made with 💜 Purple Energy
 
 </body>
 </html>
