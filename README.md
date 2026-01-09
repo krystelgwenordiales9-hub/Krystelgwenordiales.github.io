@@ -1,9 +1,9 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Krystel Gwen Ordiales</title>
+
   <style>
     body {
       margin: 0;
@@ -13,8 +13,7 @@
     }
 
     header {
-      background: linear-gradient(rgba(88, 24, 124, 0.7), rgba(88, 24, 124, 0.7)),
-      
+      background: linear-gradient(rgba(88, 24, 124, 0.8), rgba(88, 24, 124, 0.8));
       color: white;
       text-align: center;
       padding: 80px 20px;
@@ -22,13 +21,24 @@
 
     header h1 {
       font-size: 3em;
-      margin: 0;
+      margin: 10px 0;
       text-shadow: 2px 2px 6px black;
     }
 
     header p {
       font-size: 1.2em;
-      margin-top: 10px;
+      margin-top: 5px;
+    }
+
+    /* PROFILE IMAGE */
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #e1bee7;
+      box-shadow: 0 0 20px #ba68c8;
+      margin-bottom: 15px;
     }
 
     nav {
@@ -60,25 +70,15 @@
       color: #6a1b9a;
     }
 
-    .skills-bar {
-      background: #d1c4e9;
-      border-radius: 25px;
-      margin: 10px auto;
-      width: 60%;
-      height: 25px;
-      overflow: hidden;
+    ul {
+      list-style: none;
+      padding: 0;
     }
 
-    .skills-fill {
-      background: linear-gradient(to right, #8e24aa, #ba68c8);
-      height: 100%;
-      width: 0;
-      text-align: right;
-      padding-right: 10px;
-      color: white;
-      line-height: 25px;
-      transition: width 2s ease;
-      font-size: 0.9em;
+    ul li {
+      margin: 10px 0;
+      font-weight: bold;
+      color: #4a148c;
     }
 
     footer {
@@ -93,10 +93,12 @@
     }
   </style>
 </head>
+
 <body>
 
   <!-- Header -->
   <header id="home">
+    <img src="https://uploads.onecompiler.io/44a2gqpwf/44a3avp2g/1000008768.jpg" />
     <h1>Krystel Gwen Ordiales</h1>
     <p>Dreamer</p>
   </header>
@@ -115,25 +117,30 @@
     <p>
       Hi! I’m <strong>Krystel Gwen Ordiales</strong>, a passionate dreamer who loves creativity,
       learning new things, and exploring the world of web development.
+    </p>
+  </section>
+
   <!-- Skills Section -->
   <section id="skills">
     <h2>My Skills</h2>
-# HTML 
-# CSS
-# PYTHON
-
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Python</li>
+    </ul>
   </section>
 
   <!-- Contact Section -->
   <section id="contact">
     <h2>Contact Me</h2>
-    <p>Email: <a href="mailto: krystelgwenordiales.com">krystelgwenordiales@gmail.com</a></p>
+    <p>Email: <a href="mailto:krystelgwenordiales@gmail.com">krystelgwenordiales@gmail.com</a></p>
     <p>“Let’s create something amazing together.”</p>
   </section>
 
   <!-- Footer -->
   <footer>
     © 2025 Made with 💜 Purple Energy
+  </footer>
 
 </body>
 </html>
